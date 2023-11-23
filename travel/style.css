@@ -1,0 +1,396 @@
+body {
+    height: 100%;
+    font-family: 'Courier New', Courier, monospace
+}
+header {
+    
+    padding: 15px 0;
+    
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-right: 30px;
+}
+
+.logo {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    padding-left: 30px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+    font-weight: bolder;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #FFD700;
+}
+
+
+
+.hero-image {
+    background-image: url('assets/tiga.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff; 
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+.judul{
+    text-align: center;
+    align-items: center;
+    padding-top: 20px;
+    font-size: 100px;
+}
+.judul-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.button-hero {
+    color: black;
+    font-weight: bolder;
+    font-size: large;
+    background-color: #FFD334;
+    border: none;
+    height: 50px;
+    width: 200px;
+    border-radius: 100px;
+    overflow: hidden;
+    position: relative;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.button-hero:hover {
+    background-color: #fff; 
+    transform: scale(1.1);
+}
+
+.image-card{
+    padding-top: 150px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.img-card{
+    width: 450px;
+    height: auto;
+}
+
+
+.adv{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+
+.packages{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.packages-card{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+/* batas testing */
+.cards {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    justify-content: space-evenly;
+    
+  }
+  
+  .cards .red {
+    background-color: #FFF6D9;
+    border: 2px solid black;
+    color: black;
+  }
+  
+  .cards .blue {
+    background-color: #160324;
+    color: white;
+  }
+  
+  
+  .cards .card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    height: auto;
+    width: auto;
+    border-radius: 10px;
+    padding: 20px;
+    cursor: pointer;
+    transition: 400ms;
+  }
+  
+  .cards .card p.tip {
+    font-size: 1em;
+    font-weight: 700;
+  }
+  
+  .cards .card p.second-text {
+    font-size: .7em;
+  }
+  
+  .cards .card:hover {
+    transform: scale(1.1, 1.1);
+  }
+  
+  .cards:hover > .card:not(:hover) {
+    filter: blur(10px);
+    transform: scale(0.9, 0.9);
+  }
+
+  .button-card{
+    color: black;
+    border: 2px solid black;
+margin-bottom: 20px;
+    font-weight: bolder;
+    font-size: large;
+    background-color: #FFF6D9;
+    height: 50px;
+    width: 200px;
+    border-radius: 100px;
+}
+  .button-card-black{
+    color: white;
+    border: 2px solid white;
+margin-bottom: 20px;
+    font-weight: bolder;
+    font-size: large;
+    background-color: #160324;
+    height: 50px;
+    width: 200px;
+    border-radius: 100px;
+}
+.icon-card{
+    color: #fcd33b;
+}
+
+.offer{
+    display: flex;
+    padding-top: 200px;
+    justify-content: space-evenly;
+}
+
+
+
+
+
+
+
+
+/* CUSTOMER REVIEW */
+.packages-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.packages-card-1{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+/* batas testing */
+.cards-1 {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    justify-content: space-evenly;
+    
+  }
+  
+  .cards-1 .red-1 {
+    background-color: #FAEFFF;
+    border: 2px solid #7C7680;
+    color: black;
+  }
+  
+  .cards-1 .blue-1 {
+    background-color: #160324;
+    color: white;
+  }
+  
+  
+  .cards-1 .card-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    height: 300px;
+    width: auto;
+    border-radius: 10px;
+    padding: 20px;
+    cursor: pointer;
+    transition: 400ms;
+  }
+  
+  .cards-1 .card-1 p.tip-1 {
+    font-size: 1em;
+    font-weight: 700;
+  }
+  
+  .cards-1 .card-1 p.second-text-1 {
+    font-size: .7em;
+  }
+  
+  .cards-1 .card-1:hover {
+    transform: scale(1.1, 1.1);
+  }
+  
+  .cards-1:hover > .card-1:not(:hover) {
+    filter: blur(10px);
+    transform: scale(0.9, 0.9);
+  }
+
+  .button-card-1{
+    color: black;
+    border: 2px solid black;
+margin-bottom: 20px;
+    font-weight: bolder;
+    font-size: large;
+    background-color: #FFF6D9;
+    height: 50px;
+    width: 200px;
+    border-radius: 100px;
+}
+  .button-card-black-1{
+    color: white;
+    border: 2px solid white;
+margin-bottom: 20px;
+    font-weight: bolder;
+    font-size: large;
+    background-color: #160324;
+    height: 50px;
+    width: 200px;
+    border-radius: 100px;
+}
+.icon-card-1{
+    color: #FAEFFF;
+}
+
+
+
+
+
+
+
+
+/* GAMBAR PANTAI */
+.hero-image-1 {
+  background-image: url('assets/bg-travel1.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: black; 
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+  align-items: center;
+  text-align: center;
+  margin-top: 200px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.judul-1 {
+  text-align: center;
+  align-items: center;
+  padding-top: 20px;
+  font-size: 100px;
+  max-width: 100%; 
+}
+
+.judul-container-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.button-hero-1 {
+  color: black;
+  font-weight: bolder;
+  font-size: large;
+  background-color: #FFD334;
+  border: none;
+  height: 50px;
+  width: 200px;
+  border-radius: 100px;
+  overflow: hidden;
+  position: relative;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.button-hero-1:hover {
+  background-color: #fff;
+  transform: scale(1.1);
+}
+
+
+
+/* FOOTER */
+.footer {
+  background-color: #170326;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.logo {
+  width: 90px;
+  height: auto;
+  margin-right: 20px;
+}
+
+.sections {
+  display: flex;
+  color: white;
+}
+
+.section {
+  margin-right: 20px;
+}
+.section ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
